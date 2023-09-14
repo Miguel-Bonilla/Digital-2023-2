@@ -1,3 +1,5 @@
 # Digital-2023-2
 
-#Prueba 1
+#Compuerta ttl
+
+
