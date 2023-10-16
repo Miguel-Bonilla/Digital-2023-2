@@ -49,18 +49,21 @@ Finalmente, la simulación del sumador completo de tres bits a partir de pulsos 
 Teniendo en cuenta lo anterior, podemos construir un sumador completo de 4 bits, junto con su simulación
 ![J](Picture14.png)
 
-![K](Picture11.png)
+![K](Picture15.png)
 
-Para la realizaciòn y diseño del restador, se tiene en cuenta que el modulo que varia el comportamiento del mismo es simplemente el nombrado "fulladder" del sumador completo de 4-bits. El modulo correspondiente tiene el comportamiento mostrado a continuación:
+Para la realizaciòn y diseño del restador, se tiene en cuenta que el modulo que varia el comportamiento del mismo es simplemente el nombrado "halfadder" del sumador completo. El modulo correspondiente tiene el comportamiento mostrado a continuación:
 
 ![L](PictureR1.png)
 
-![M](PictureR1.png)
+![M](PictureR2.png)
 
-Al reemplazar este nuevo mòdulo por los que antes consistian al "fulladder" se oberva lo mostrado a continuaión junto con su respectiva simulaiòn.
+De lo anterior se puede observar que las salida (Y) es la misma que para el medio sumador, sin embargo, el "carry", que para el caso del restador es el "Borrow" es el que varia por las compuestas mostradas anteriormente.
+
+Al reemplazar este nuevo mòdulo por los que antes consistian al "fulladder" se oberva lo mostrado a continuaión junto con su respectiva simulaciòn.
 
 
-![N](PictureR1.png)
+![N](PictureR3.png)
 
+![O](PictureR4.png)
 
 
