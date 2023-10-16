@@ -1,6 +1,6 @@
 # Medio sumador-Restador
 
-Los programas diseñados se encentran en la carpeta "Programas.zip"
+Los programas diseñados se encentran en la carpeta [Programas.zip](./Programas.zip)
 
 
 Los sumadores desempeñan un papel de gran relevancia no solo en el ámbito de las computadoras, sino también en una variedad de sistemas digitales que manipulan información numérica. Es esencial adquirir un conocimiento sólido sobre el funcionamiento de un sumador elemental al explorar los entresijos de los sistemas digitales.
