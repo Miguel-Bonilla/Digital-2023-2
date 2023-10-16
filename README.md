@@ -1,4 +1,7 @@
-# Digital-2023-2
+# Medio sumador-Restador
+
+Los programas diseñados se encentran en la carpeta "Programas.zip"
+
 
 Los sumadores desempeñan un papel de gran relevancia no solo en el ámbito de las computadoras, sino también en una variedad de sistemas digitales que manipulan información numérica. Es esencial adquirir un conocimiento sólido sobre el funcionamiento de un sumador elemental al explorar los entresijos de los sistemas digitales.
 Ahora bien, en este informe se presentará al sumador medio y al sumador completo. Recordemos lo básico acerca de la suma en binario:
@@ -65,5 +68,7 @@ Al reemplazar este nuevo mòdulo por los que antes consistian al "fulladder" se 
 ![N](PictureR3.jpeg)
 
 ![O](PictureR4.jpeg)
+
+En conclusiòn, se demostró que las simulaciones en ierilog, herramientas de digital, entre otros programas utilizados en esta pràctica son utiles a la hora de crear y dseñar circuitos digitales de una manera màs compacta (creando modulo a modulo).
 
 
