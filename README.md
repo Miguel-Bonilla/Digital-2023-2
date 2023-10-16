@@ -20,7 +20,8 @@ Haciendo una simplificación por Karnaugh, podemos sacar la ecuación de cada un
 
 ![Karnaught_sumador2](Picture6.png)
 
-Podemos ver que la lógica de este es S = A ⊕ B Y Cout = AB
+Podemos ver que la lógica de este es S = A ⊕ B Y Cout = AB 
+
 Finalmente, viendo la simulación del sumador medio a partir de señales se muestra a continuación:
 
 ![Karnaught_sumador2](Picture7.png)
