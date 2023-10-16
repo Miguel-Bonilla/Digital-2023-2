@@ -1,0 +1,573 @@
+{
+  "creator": "Yosys 0.33+6 (git sha1 41b34a193, x86_64-conda-linux-gnu-cc 11.2.0 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -fdebug-prefix-map=/root/conda-eda/conda-eda/workdir/conda-env/conda-bld/yosys_1694128612374/work=/usr/local/src/conda/yosys-0.33_7_g41b34a193 -fdebug-prefix-map=/home/miguel/miniconda3/envs/digital=/usr/local/src/conda-prefix -fPIC -Os -fno-merge-constants)",
+  "modules": {
+    "fourllader": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "fourllader.v:1.1-24.10"
+      },
+      "ports": {
+        "in_b0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "in_a0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "in_b1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "in_a1": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "in_b2": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "in_a2": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "in_b3": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "in_a3": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "in_pa0": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "out_pa": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "out_s0": {
+          "direction": "output",
+          "bits": [ 12 ]
+        },
+        "out_s1": {
+          "direction": "output",
+          "bits": [ 13 ]
+        },
+        "out_s2": {
+          "direction": "output",
+          "bits": [ 14 ]
+        },
+        "out_s3": {
+          "direction": "output",
+          "bits": [ 15 ]
+        }
+      },
+      "cells": {
+        "restador1": {
+          "hide_name": 0,
+          "type": "restador",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "fourllader.v:17.10-17.66"
+          },
+          "port_directions": {
+            "in_a": "input",
+            "in_b": "input",
+            "in_pi": "input",
+            "out_po": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "in_a": [ 3 ],
+            "in_b": [ 2 ],
+            "in_pi": [ 10 ],
+            "out_po": [ 16 ],
+            "out_s": [ 12 ]
+          }
+        },
+        "restador2": {
+          "hide_name": 0,
+          "type": "restador",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "fourllader.v:18.10-18.75"
+          },
+          "port_directions": {
+            "in_a": "input",
+            "in_b": "input",
+            "in_pi": "input",
+            "out_po": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "in_a": [ 5 ],
+            "in_b": [ 4 ],
+            "in_pi": [ 16 ],
+            "out_po": [ 17 ],
+            "out_s": [ 13 ]
+          }
+        },
+        "restador3": {
+          "hide_name": 0,
+          "type": "restador",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "fourllader.v:19.10-19.75"
+          },
+          "port_directions": {
+            "in_a": "input",
+            "in_b": "input",
+            "in_pi": "input",
+            "out_po": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "in_a": [ 7 ],
+            "in_b": [ 6 ],
+            "in_pi": [ 17 ],
+            "out_po": [ 18 ],
+            "out_s": [ 14 ]
+          }
+        },
+        "restador4": {
+          "hide_name": 0,
+          "type": "restador",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "fourllader.v:20.10-20.66"
+          },
+          "port_directions": {
+            "in_a": "input",
+            "in_b": "input",
+            "in_pi": "input",
+            "out_po": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "in_a": [ 9 ],
+            "in_b": [ 8 ],
+            "in_pi": [ 18 ],
+            "out_po": [ 11 ],
+            "out_s": [ 15 ]
+          }
+        }
+      },
+      "netnames": {
+        "in_a0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "fourllader.v:3.16-3.21"
+          }
+        },
+        "in_a1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "fourllader.v:3.29-3.34"
+          }
+        },
+        "in_a2": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "fourllader.v:3.42-3.47"
+          }
+        },
+        "in_a3": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "fourllader.v:3.55-3.60"
+          }
+        },
+        "in_b0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "fourllader.v:3.9-3.14"
+          }
+        },
+        "in_b1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "fourllader.v:3.22-3.27"
+          }
+        },
+        "in_b2": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "fourllader.v:3.35-3.40"
+          }
+        },
+        "in_b3": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "fourllader.v:3.48-3.53"
+          }
+        },
+        "in_pa0": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "fourllader.v:3.62-3.68"
+          }
+        },
+        "out_pa": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "fourllader.v:4.10-4.16"
+          }
+        },
+        "out_s0": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "fourllader.v:4.18-4.24"
+          }
+        },
+        "out_s1": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "fourllader.v:4.27-4.33"
+          }
+        },
+        "out_s2": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "fourllader.v:4.35-4.41"
+          }
+        },
+        "out_s3": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "fourllader.v:4.43-4.49"
+          }
+        },
+        "po_s0_to_in_pi1": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "fourllader.v:10.6-10.21"
+          }
+        },
+        "po_s1_to_in_pi2": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "fourllader.v:11.6-11.21"
+          }
+        },
+        "po_s2_to_in_pi3": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "fourllader.v:12.6-12.21"
+          }
+        }
+      }
+    },
+    "halfadder": {
+      "attributes": {
+        "src": "./halfadder.v:2.1-14.10"
+      },
+      "ports": {
+        "a": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "co": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "s": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+        "$and$./halfadder.v:12$4": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./halfadder.v:12.13-12.19"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 3 ],
+            "Y": [ 4 ]
+          }
+        },
+        "$not$./halfadder.v:12$3": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./halfadder.v:12.13-12.15"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "Y": [ 6 ]
+          }
+        },
+        "$xor$./halfadder.v:11$2": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./halfadder.v:11.12-11.17"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 5 ]
+          }
+        }
+      },
+      "netnames": {
+        "$not$./halfadder.v:12$3_Y": {
+          "hide_name": 1,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./halfadder.v:12.13-12.15"
+          }
+        },
+        "a": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./halfadder.v:3.9-3.10"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./halfadder.v:3.12-3.13"
+          }
+        },
+        "co": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./halfadder.v:4.10-4.12"
+          }
+        },
+        "s": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./halfadder.v:4.14-4.15"
+          }
+        }
+      }
+    },
+    "restador": {
+      "attributes": {
+        "src": "./restador.v:1.1-21.10"
+      },
+      "ports": {
+        "in_b": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "in_a": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "in_pi": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "out_po": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "out_s": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+        "$or$./restador.v:19$1": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./restador.v:19.17-19.42"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 8 ],
+            "Y": [ 5 ]
+          }
+        },
+        "halfadder1": {
+          "hide_name": 0,
+          "type": "halfadder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./restador.v:15.11-15.60"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "co": "output",
+            "s": "output"
+          },
+          "connections": {
+            "a": [ 2 ],
+            "b": [ 3 ],
+            "co": [ 7 ],
+            "s": [ 9 ]
+          }
+        },
+        "halfadder2": {
+          "hide_name": 0,
+          "type": "halfadder",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./restador.v:16.11-16.62"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "co": "output",
+            "s": "output"
+          },
+          "connections": {
+            "a": [ 9 ],
+            "b": [ 4 ],
+            "co": [ 8 ],
+            "s": [ 6 ]
+          }
+        }
+      },
+      "netnames": {
+        "co_s1_to_or": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./restador.v:10.6-10.17"
+          }
+        },
+        "co_s2_to_or": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./restador.v:11.6-11.17"
+          }
+        },
+        "in_a": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./restador.v:3.15-3.19"
+          }
+        },
+        "in_b": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./restador.v:3.9-3.13"
+          }
+        },
+        "in_pi": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./restador.v:3.21-3.26"
+          }
+        },
+        "out_po": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./restador.v:4.10-4.16"
+          }
+        },
+        "out_s": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./restador.v:4.18-4.23"
+          }
+        },
+        "s_s1_to_b_s2": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "./restador.v:9.6-9.18"
+          }
+        }
+      }
+    }
+  }
+}
