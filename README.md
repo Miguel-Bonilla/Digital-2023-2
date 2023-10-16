@@ -53,17 +53,17 @@ Teniendo en cuenta lo anterior, podemos construir un sumador completo de 4 bits,
 
 Para la realizaciòn y diseño del restador, se tiene en cuenta que el modulo que varia el comportamiento del mismo es simplemente el nombrado "halfadder" del sumador completo. El modulo correspondiente tiene el comportamiento mostrado a continuación:
 
-![L](Picturer1.jpg)
+![L](Picturer1.jpeg)
 
-![M](PictureR2.jpg)
+![M](PictureR2.jpeg)
 
 De lo anterior se puede observar que las salida (Y) es la misma que para el medio sumador, sin embargo, el "carry", que para el caso del restador es el "Borrow" es el que varia por las compuestas mostradas anteriormente.
 
 Al reemplazar este nuevo mòdulo por los que antes consistian al "fulladder" se oberva lo mostrado a continuaión junto con su respectiva simulaciòn.
 
 
-![N](PictureR3.jpg)
+![N](PictureR3.jpeg)
 
-![O](PictureR4.jpg)
+![O](PictureR4.jpeg)
 
 
