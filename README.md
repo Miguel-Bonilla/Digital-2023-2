@@ -53,7 +53,7 @@ Teniendo en cuenta lo anterior, podemos construir un sumador completo de 4 bits,
 
 Para la realizaciòn y diseño del restador, se tiene en cuenta que el modulo que varia el comportamiento del mismo es simplemente el nombrado "halfadder" del sumador completo. El modulo correspondiente tiene el comportamiento mostrado a continuación:
 
-![L](Picturer1.jpeg)
+![L](Picturer1.png)
 
 ![M](PictureR2.jpeg)
 
