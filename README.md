@@ -69,6 +69,6 @@ Al reemplazar este nuevo mòdulo por los que antes consistian al "fulladder" se 
 
 ![O](PictureR4.jpeg)
 
-En conclusiòn, se demostró que las simulaciones en ierilog, herramientas de digital, entre otros programas utilizados en esta pràctica son utiles a la hora de crear y dseñar circuitos digitales de una manera màs compacta (creando modulo a modulo).
+En conclusiòn, se demostró que las simulaciones en iverilog, herramientas del programa "Digital", entre otros programas utilizados en esta pràctica son utiles a la hora de crear y diseñar circuitos digitales de una manera màs compacta (creando módulo a módulo).
 
 
