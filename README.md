@@ -44,16 +44,16 @@ Finalmente, la simulación del sumador completo de tres bits a partir de pulsos 
 
 ![H](Picture12.png)
 
-![I](Picture13.png)
+![I](Pic13.png)
 
 Teniendo en cuenta lo anterior, podemos construir un sumador completo de 4 bits, junto con su simulación
-![J](Picture14.png)
+![J](Picture13.png)
 
-![K](Picture15.png)
+![K](Picture14.png)
 
 Para la realizaciòn y diseño del restador, se tiene en cuenta que el modulo que varia el comportamiento del mismo es simplemente el nombrado "halfadder" del sumador completo. El modulo correspondiente tiene el comportamiento mostrado a continuación:
 
-![L](PictureR1.png)
+![L](Picturer1.png)
 
 ![M](PictureR2.png)
 
