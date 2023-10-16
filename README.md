@@ -8,7 +8,7 @@ Ahora bien, en este informe se presentará al sumador medio y al sumador complet
 
 Estas operaciones entonces son realizadas por un circuito lógico llamado sumador medio. Los medios sumadores son componentes fundamentales en sistemas digitales, ya que la aritmética binaria es esencial para realizar operaciones matemáticas y lógicas en un sistema electrónico. Además, los medios sumadores son la base para construir sumadores completos, que son capaces de sumar números de múltiples bits.
 
-![Esquema_sumador](Picture2.png)
+![Esquema_sumador](Piture2.png)
 
 Haciendo una simplificación por Karnaugh, podemos sacar la ecuación de cada una de sus salidas:
 
